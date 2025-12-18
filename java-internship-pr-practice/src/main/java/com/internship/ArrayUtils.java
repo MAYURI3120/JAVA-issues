@@ -2,8 +2,8 @@ package com.internship;
 
 public class ArrayUtils {
 
-    // ISSUE: Return maximum element from array
-    public static int findMax(int[] arr) {
+    //Solved ISSUE: Return maximum element from array
+    public static int findMax(int[] arr)
         //base case..
         if (arr==null || arr.length==0)
         {
@@ -25,5 +25,6 @@ public class ArrayUtils {
     {
         int[] arr={1,12,3,20,21};
         System.out.println("Maximum "+findMax(arr));
+    }
     }
 }

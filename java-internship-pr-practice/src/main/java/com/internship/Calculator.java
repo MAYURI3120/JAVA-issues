@@ -17,3 +17,4 @@ public class Calculator {
         System.out.println("Subtraction "+calc.subtract(12,12));
     }
 }
+}
